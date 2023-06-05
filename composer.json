@@ -1,0 +1,20 @@
+{
+  "name": "snake",
+  "description": "Snake",
+  "type": "library",
+  "config": {
+    "platform": { "php": "8.1" }
+  },
+  "repositories": [{
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }],
+  "minimum-stability": "stable",
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "fhnw\\modules\\games\\snake": "."
+    }
+  },
+  "autoload-dev": { "psr-4": {} }
+}
